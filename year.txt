@@ -1,0 +1,8 @@
+def is_leap(year):
+    leap = False
+    keep =True
+    if(year%4!=0 and year%400!=0):
+        return leap
+    else:
+        
+        return keep

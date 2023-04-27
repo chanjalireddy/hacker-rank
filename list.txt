@@ -1,0 +1,15 @@
+if __name__ == '__main__':
+    N = int(input())
+    l=[]
+    l.insert(0,5)
+    l.insert(1,10)
+    l.insert(0,6)
+    print(l)
+    l.remove(6)
+    l.insert(1,9)
+    l.insert(0,1)
+    l.sort()
+    print(l)
+    l.pop()
+    l.reverse()
+    print(l)
